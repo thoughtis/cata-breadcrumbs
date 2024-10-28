@@ -17,11 +17,16 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
  */
 
+namespace Cata\Breadcrumbs;
+
 /**
- * Get Cata Breadcrumbs
- * 
- * @return array
+ * Global Functions
  */
-function get_cata_breadcrumbs(): array {
-	return apply_filters( 'get_cata_breadcrumbs', array() );
-}
+require_once __DIR__ . '/includes/global-functions.php';
+
+/**
+ * Category Breadcrumbs
+ */
+require_once __DIR__ . '/includes/category/class-category.php';
+
+new Category();
