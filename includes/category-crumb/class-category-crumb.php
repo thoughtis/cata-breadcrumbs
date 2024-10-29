@@ -1,6 +1,6 @@
 <?php
 /**
- * Category
+ * Category Crumb
  *
  * @package Cata\Breadcrumbs
  */
@@ -10,9 +10,9 @@ namespace Cata\Breadcrumbs;
 use WP_Term;
 
 /**
- * Category
+ * Category Crumb
  */
-class Category {
+class Category_Crumb {
 	/**
 	 * Disallow
 	 *

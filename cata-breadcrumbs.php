@@ -25,8 +25,8 @@ namespace Cata\Breadcrumbs;
 require_once __DIR__ . '/includes/global-functions.php';
 
 /**
- * Category Breadcrumbs
+ * Category Crumb
  */
-require_once __DIR__ . '/includes/category/class-category.php';
+require_once __DIR__ . '/includes/category-crumb/class-category-crumb.php';
 
-new Category();
+new Category_Crumb();
