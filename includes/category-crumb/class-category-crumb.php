@@ -58,7 +58,7 @@ class Category_Crumb {
 
 		$crumb = apply_filters( 'cata_breadcrumbs_category_crumb', $crumb, $category );
 
-		return array_merge( array( $crumb ), $crumbs );
+		return array_merge( $crumbs, array( $crumb ) );
 	}
 
 	/**
